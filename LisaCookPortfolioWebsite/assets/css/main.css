@@ -300,7 +300,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 100%;
 		}
 
 		.row > .off-6 {
@@ -706,7 +706,7 @@ input, select, textarea {
 
 			.row {
 				display: flex;
-				flex-wrap: wrap;
+				flex-direction: column;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
